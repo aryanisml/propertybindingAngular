@@ -29,3 +29,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Play
 https://nbwiqrva.github.stackblitz.io/
+
+##code
+https://stackblitz.com/github/aryanisml/propertybindingAngular
