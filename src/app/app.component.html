@@ -1,0 +1,23 @@
+<style>
+  .bd {
+    border: 1px solid grey;
+  }
+
+</style>
+<div class="container p-5">
+  <div class="row bd p-2">
+    <div class="col-lg-4">
+      <button (click)="Send()">Parent click</button>
+    </div>
+  </div>
+  <div class="row bd p-2">
+    <div class="col-lg-4 p-3">
+      <app-child-one [(selection)]="childOneProp"></app-child-one>
+    </div>
+  </div>
+  <div class="row bd p-2">
+    <div class="col-lg-8">
+      <app-child-two [(selection)]="childTwoProp"></app-child-two>
+    </div>
+  </div>
+</div>
